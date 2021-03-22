@@ -1,0 +1,26 @@
+.tagList {
+  overflow-y: scroll;
+  height: fit-content;
+  max-height: 140px;
+  border: 1px solid #f4f6f3;
+  box-sizing: border-box;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  cursor: pointer;
+  position: absolute;
+  top: 101%;
+  left: -1px;
+  width: calc(100% + 2px);
+  z-index: 2;
+  background: #ffffff;
+  padding: 20px 16px;
+}
+
+.result {
+  cursor: pointer;
+  padding: 12px;
+}
+
+.result:hover {
+  background-color: #f4f6f3 ;
+}

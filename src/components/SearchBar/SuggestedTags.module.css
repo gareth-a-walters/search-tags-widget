@@ -1,0 +1,23 @@
+.suggestedTitle {
+  font-size: 10px;
+  line-height: 13px;
+  letter-spacing: 1px;
+  color: #afb4a9;
+  margin: 12px 0px 8px 0px;
+  line-height: 13px;
+  text-transform: uppercase;
+}
+
+.tagButton {
+  background: #f4f6f3;
+  border-radius: 4px;
+  border: none;
+  font-size: 12px;
+  color: #93a086;
+  padding: 4px 10px;
+  margin: 0px 8px 10px 0px;
+}
+
+.tagButton:focus {
+  outline: none;
+}
